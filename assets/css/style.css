@@ -1,35 +1,41 @@
-/* Box Sizing */
-*,
-*::before,
-*::after{
-    box-sizing: border-box;
+header{
+    padding: 5px;
+    background-color: rgb(14, 15, 16);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*
+header>h1{
+    display: inline-block;
+}
+header>nav{
+    display: inline-block;
+}
+header>nav>ul>li{
+    display: inline-block;
+}
+header>nav>ul{
+    display: flex;
+    li
+    {
+        list-style: none;
+    }
+}*/
+.flex{
+    display: flex;
 
 }
-/* Remove Default Margin */
-*{
-    margin: 0;
+.justify-content-between{
+    display: flex;
 }
-/* Improves Text Rendering */
-html{
-    scroll-behavior: smooth;
-    -webkit-text-size-adjust: 100%;
+li.no-decoration{
+    list-style: none;
 }
-body{
-    min-height: 100vh;
-    line-height: 1.5;
-    text-rendering: optimizeLegibility;
-}
-/* Better media defaults*/
-img,picture,video,canvas,svg{
-    display: block;
-    max-width: 100%;
-}
-/* links */
-a{
+a.no-decoration{
     text-decoration: none;
-    color: inherit;
 }
-/* Button */
-button{
-    cursor: pointer;
+.hover-yellow:hover{
+    color: yellow;
 }

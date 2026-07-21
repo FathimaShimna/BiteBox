@@ -1,0 +1,35 @@
+/* Box Sizing */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+
+}
+/* Remove Default Margin */
+*{
+    margin: 0;
+}
+/* Improves Text Rendering */
+html{
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+body{
+    min-height: 100vh;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+}
+/* Better media defaults*/
+img,picture,video,canvas,svg{
+    display: block;
+    max-width: 100%;
+}
+/* links */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* Button */
+button{
+    cursor: pointer;
+}
