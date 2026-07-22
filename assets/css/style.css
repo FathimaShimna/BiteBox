@@ -1,9 +1,11 @@
 header{
+    height: 6vh;
+    min-height: 30px;
     padding: 5px;
     background-color: rgb(14, 15, 16);
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 /*
@@ -23,6 +25,10 @@ header>nav>ul{
         list-style: none;
     }
 }*/
+img.h-100{
+        height: 2em;
+        display: flex;
+}
 .flex{
     display: flex;
 
@@ -38,4 +44,18 @@ a.no-decoration{
 }
 .hover-yellow:hover{
     color: yellow;
+}
+
+.align-items-center{
+
+    align-items: center;
+
+}
+
+.navbar{
+    margin-right: 30px;
+}
+
+nav ul{
+    gap: 20px;
 }
