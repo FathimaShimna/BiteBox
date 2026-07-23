@@ -33,6 +33,19 @@ img.h-100{
     display: flex;
 
 }
+
+.btn{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+    padding-top : 2px;
+    border-radius: 6px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgb(186,186,186);
+  
+}
+
 .justify-content-between{
     display: flex;
 }
@@ -58,4 +71,10 @@ a.no-decoration{
 
 nav ul{
     gap: 20px;
+}
+button.login{
+      background-color: red;
+    color: white;
+    box-shadow: none;
+
 }
