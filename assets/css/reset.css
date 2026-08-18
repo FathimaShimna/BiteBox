@@ -30,6 +30,6 @@ a{
     color: inherit;
 }
 /* Button */
-button{
+button,a,i{
     cursor: pointer;
 }
