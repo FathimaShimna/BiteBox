@@ -6,6 +6,10 @@ body {
     );
     background-size: 100%;
     /* animation: bg 40s infinite; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* @keyframes bg {
@@ -29,17 +33,18 @@ main {
     padding: 35px 10px 25px 10px;
     /* padding-top: 35px;
     padding-bottom: 25px; */
+   
     
 }
 
 footer {
-    height: 3vh;
-    min-height: 22px;
-    max-height: 25px;
-    bottom: 0;
-    text-align: center;
+    padding: 30px;
     z-index: 1000;
+    gap: 10px;
+    color: white;
+    background:linear-gradient(to bottom right,rgb(87, 10, 73))
 }
+
 
 del {
     font-style: italic;
